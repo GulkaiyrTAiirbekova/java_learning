@@ -22,4 +22,26 @@ public class Main{
     x - y - z - 50;
     System.out.println(x+y+x);
     }
+public class Main{
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+        System.out.print("I'm learning Java");
+    }
+
+}
+public class Main{
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+        System.out.print("I'm learning Java");
+    }
+}
+public class Main{
+    public static void main(String[] args) {
+        System.out.println(3 * 9); //27
+        
+    }
+}
+//Multi-line comments start with /* and ends with */.
+
+
 }
