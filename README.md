@@ -45,3 +45,29 @@ public class Main{
 
 
 }
+public class Main{
+    public static void main (String[] args){
+        String name = "Amanda";
+        System.out.println(name);
+    }
+}
+public class Main {
+    public static void main (String[] args){
+        int myNum = 12;
+        System.out.println(myNum);
+    }
+}
+public class Main {
+    public static void main (String[] args){
+        int myNum;
+        myNum=12;
+        System.out.println(myNum);
+    }
+}
+public class Main {
+    public static void main (String[]args){
+        int myNum =12;
+        myNum = 34;
+        System.out.println(myNum); //34
+    }
+}
