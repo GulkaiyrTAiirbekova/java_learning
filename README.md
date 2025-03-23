@@ -71,3 +71,33 @@ public class Main {
         System.out.println(myNum); //34
     }
 }
+public class Main {
+    public static void main (String[] args) {
+        int myNum =6;
+        float myFloatNum = 6.77f;
+        char myLetter = 'A';
+        boolean myBool = true;
+        String myText = "Greetings";
+
+    }
+}
+public class Main {
+    public static void main (String [] arg) {
+        int x =6;
+        int y =13;
+        System.out.println(x+y); //19
+    }
+}
+public class Main {
+    public static void main (String[] args) {
+        int x,y,z;
+        x=y=z=50;
+        System.out.println(x+y+z);
+    }
+}  
+public class Main {
+    public static void main (String[] args ){
+        int x=2,y=4,z=12;
+        System.out.println(x+y+z);
+    }
+}
