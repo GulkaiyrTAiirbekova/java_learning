@@ -101,3 +101,17 @@ public class Main {
         System.out.println(x+y+z);
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        String name = "Tom";
+        System.out.println("Hello " + name);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        String firstName = "Tom";
+        String lastName = "Jones";
+        String fullName = firstName + " " + lastName;
+        System.out.println(fullName);
+    }
+}
