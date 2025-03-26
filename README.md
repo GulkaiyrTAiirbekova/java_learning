@@ -115,3 +115,31 @@ public class Main {
         System.out.println(fullName);
     }
 }
+public class Main {
+    public static void main(String []args) {
+        boolean isTodaySunny = true;
+        boolean isTodayRainy = false;
+        System.out.println(isTodaySunny);
+        System.out.println(isTodayRainy);
+    }
+}
+public class Main {
+    public static void main(String [] args) {
+        char Grade = 'A';
+        System.out.println(Grade);
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        char Var1 =23,Var2= 45, Var3=89;
+        System.out.println(Var1);
+        System.out.println(Var2);
+        System.out.println(Var3);
+    }
+}
+public class Main{
+    public static void main (String []args) {
+        String greeting = "Hello, Java World!";
+        System.out.println(greeting);
+    }
+}
