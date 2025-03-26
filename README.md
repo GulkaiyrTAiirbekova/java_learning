@@ -288,3 +288,17 @@ public class Main {
       }
     }
 }
+import java.util.Scanner;
+
+public class Main {
+    public static void main (String[] args) {
+        Scanner sc = new Scanner (System.in);
+        int temperature = sc.nextInt();
+
+        if (temperature >25) {
+            System.out.println("It's a warm say. Stay hydrated!");
+
+        }
+        System.out.println("Enjoy your day!");
+    }
+}
