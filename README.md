@@ -143,3 +143,28 @@ public class Main{
         System.out.println(greeting);
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello and Welcome!");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        int number= 12;
+        System.out.println(number);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        int number = 2;
+        double pi = 3.14;
+        char a = 'A';
+        boolean b = true, c = false;
+        String text = "Hello World";
+
+        System.out.println(number);
+        System.out.println(pi);
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
