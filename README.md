@@ -168,3 +168,123 @@ public class Main {
         System.out.println(b);
     }
 }
+public class Main {
+    public static void main (String [] args){
+      int a = 13;
+      int b = 2;
+      int c = a/b;
+      int d = a % b;
+//      13/2=[6].1
+//      13 % 2 = 6.[1]          
+      System.out.println(c); //6
+      System.out.println(d); //1
+    }
+}
+public class Main {
+    public static void main (String [] args) {
+        double a =10, b = 5;
+        double c = a/b;
+        double d = 11;
+        double f = 2;
+        double g = d /f ;
+        double g1 = d % f;
+        System. out.println(c); //2.0
+        System.out.println(g); //5.5
+        System.out.println(g1); //1.0
+    }
+}
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        String name = sc.next();
+        System.out.println( "Welcome "  + name); //Welcome Gulkaiyr
+
+    }
+}
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        int a = sc.nextInt();  //2
+        int b = sc.nextInt(); //6
+        System.out.println( a+b ); //8
+
+    }
+}
+import java.util.Scanner;
+public class Main {
+    public static void main (String [] args) {
+        Scanner sc = new Scanner (System.in);
+        double d= sc.nextDouble();
+        System.out.println(d);
+    }
+} 
+public class Main {
+    public static void main (String [] args) {
+        boolean execute = true;
+        if (execute) {
+            System.out.println("Execution is true"); //Execution is true
+        }
+
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        int a= 2, b=2;
+        if (a == b) {
+            System.out.println("They are equal");
+        } else {
+            System.out.println("They are not equal");
+        }
+    }
+}
+public class Main{
+    public static void main (String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt(),b= sc.nextInt();
+        if (a ==b) {
+            System.out.println("Equal");
+        } else {
+            System.out.println("Not equal");
+        }
+    }
+}
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if ( n < 0) {
+            System.out.println("negative");
+        } else {
+            if ( n > 0){
+            System.out.println("positive");
+        } else {
+                System.out.println("zero");
+            }
+        }
+    }
+}
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc  = new Scanner(System.in);
+      String s =sc.next();
+      if (s.equals("a")) {
+          System.out.println("A");
+      } else {
+          if (s.equals("b")) {
+              System.out.println ("B");
+          } else {
+              if (s.equals("c")) {
+                  System.out.println("C");
+              } else {
+                  System.out.println("Invalid character");
+              }
+          }
+      }
+    }
+}
