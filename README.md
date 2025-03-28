@@ -302,3 +302,109 @@ public class Main {
         System.out.println("Enjoy your day!");
     }
 }
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main (String [] args) {
+//      Scanner sc = new Scanner(System.in);
+//      int dayNumber = sc.nextInt();
+//
+//      switch (dayNumber){
+//          case 1:
+//              System.out.println("Monday- Start of the work week");
+//              break;
+//          case 2:
+//              System.out.println("Tuesday - Keep going!");
+//              break;
+//          case 3:
+//              System.out.println("Wednesday - Midweek already.");
+//              break;
+//          case 4:
+//              System.out.println("Tuesday-   Almost there.");
+//              break;
+//          case 5:
+//              System.out.println("Friday- Weekend is near!");
+//              break;
+//          case 6:
+//              System.out.println("Saturday -Time to relax!");
+//              break;
+//          case 7:
+//              System.out.println("Sunday - Rest and recharge");
+//              break;
+//          default:
+//              System.out.println("Invalid day number.");
+//
+//      }
+//    }
+//}
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main (String [] args) {
+//        Scanner sc = new Scanner (System.in); 1:12:40
+//27.03.2025 java basics and arrays
+/*
+//int [] array = new int[3];
+//array[0]= 10;
+//array [1]=20;
+//array
+//public class Main {
+//    public static void main(String[] args) {
+//        int a,b;
+//        int [] array = new int [5];
+//        array [0] = 10;
+//        array [2] = 20;
+//        System.out.println(array[0]);
+//        System.out.println(array[1]);
+//    }
+//}
+//}
+*/
+//A program that guesses a number between 0-100, to guess it
+/*import java.util.Random;
+
+public class Main{
+    public static void main (String [] args){
+        Random rand = new Random();
+        int guess = rand.nextInt() % 100;
+
+        Scanner sc =  new Scanner(System.in);
+        int guess
+        System.out.println(int);
+    }
+}
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution{
+    private static final Scanner scan = new Scanner (System.in);
+    public static void main (String [] args) {
+        int N = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        scanner.close();
+        if (N%2 !=0) {
+            System.out.println("Weird");
+        }
+        else if (N % 2 ==0 && N >= 2 & N <=5) {
+            System.out.println("Not weird");
+        }
+        else if ( N %2 ==0 && N>=6 & N <=20) {
+            System.out.println("Weird");
+        }
+        else if (N % 2 ==0 && N>=6 & <=20) {
+            System.out.println("Weird");
+        }
+        else if (N % ==0 && N>20)
+        {
+            System.out.println(" Not Weird");
+        }
+        scanner.close();
+        }
+    }
+}
