@@ -408,3 +408,19 @@ public class Solution{
         }
     }
 }
+public class Main {
+    public static void main (String [] args) {
+        String studentName = " Tom Galt";
+        int studentID = 1234;
+        int studentAge = 19;
+        float studentFee = 35.45f;
+        char studentGrade = 'A';
+
+        System.out.println("Student name: " + studentName);
+        System.out.println ("Student ID: " + studentID);
+        System.out.println("Student age: " + studentAge);
+        System.out.println("Student fee: " + studentFee);
+        System.out.println ("Student grade: " + studentGrade);
+
+    }
+}
