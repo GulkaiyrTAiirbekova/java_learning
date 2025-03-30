@@ -436,3 +436,48 @@ public class Main {
         System.out.println ("Area of the rectangle is: " + area ); 
     }
 }
+public class Main {
+    public static void main (String [] args){
+        int myNum = 4;
+        float myFloat = 4.99f;
+        char myChar = 'G';
+        boolean myBoolean = true;
+        String myText = "Hello";
+        System.out.println(myNum);
+        System.out.println(myFloat);
+        System.out.println(myChar);
+        System.out.println(myBoolean);
+        System.out.println(myText);
+
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        byte myNum = 100;
+        System.out.println (myNum);
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        short myNum = 2000;
+        System.out.println(myNum);
+    }
+}
+public class Main {
+    public static void main (String[] args){
+        int myNum = 100000;
+        System.out.println(myNum);
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        long myNum = 13000000000L;
+        System.out.println(myNum);
+    }
+}
+public class Main {
+    public static void main (String[] args){
+        float myNum= 6.78f;
+        System.out.println (myNum);
+    }
+}
