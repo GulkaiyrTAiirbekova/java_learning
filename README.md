@@ -504,3 +504,19 @@ public class Main {
        System.out.println(isGrassTasty);
     }
 }
+public class Main {
+    public static void main (String[] args){
+        char MyGrade = 'A';
+        System.out.println(MyGrade);
+    }
+}
+public class Main {
+    public static void main (String[]args ){
+        char myVar1= 145;
+        char myVar2= 234;
+        char myVar3= 324;
+        System.out.println(myVar1);
+        System.out.println(myVar2);
+        System.out.println(myVar3);
+    }
+}
