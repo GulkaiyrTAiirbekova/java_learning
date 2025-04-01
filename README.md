@@ -496,3 +496,11 @@ public class Main {
         System.out.println (myNum);
     }
 }
+public class Main {
+    public static void main (String [] args){
+       boolean isJavaFun = true;
+       boolean isGrassTasty = false;
+       System.out.println(isJavaFun);
+       System.out.println(isGrassTasty);
+    }
+}
