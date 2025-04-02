@@ -520,3 +520,23 @@ public class Main {
         System.out.println(myVar3);
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        String greeting = "Hello  World";
+        System.out.println(greeting);
+
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        int items = 25;
+        float costPerItem = 6.7f;
+        float totalCost = items * costPerItem;
+        char currency = '$';
+
+        System.out.println("Number of items:" + items );
+        System.out.println("Cost per item:" + costPerItem);
+        System.out.println(" Total Cost:" +totalCost + currency);
+    }
+}
