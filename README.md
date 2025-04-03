@@ -540,3 +540,33 @@ public class Main {
         System.out.println(" Total Cost:" +totalCost + currency);
     }
 }
+public class Main {
+    public static void main (String [] args){
+        int myInt =6;
+        double myDouble = myInt;
+        System.out.println(myInt);
+        System.out.println(myDouble);
+    }
+}
+public class Main {
+    public static void  main (String [] args){
+        double myDouble = 4.57d;
+        int myInt = (int) myDouble;
+
+        System.out.print(myDouble);
+        System.out.println(myInt);
+
+    }
+}
+public class Main {
+    public static void main (String []args) {
+        int maxScore = 600;
+        int userScore = 123;
+        float percentage = (float)userScore/maxScore * 100.0f;
+
+        System.out.println( "User's percentage is "+ percentage);
+
+    }
+}
+
+
