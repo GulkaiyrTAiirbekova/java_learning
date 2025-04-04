@@ -568,5 +568,38 @@ public class Main {
 
     }
 }
+public class Main {
+    public static void main (String []args){
+        double myDouble = 9.78d;
+        int myInt = (int) myDouble;
+
+        System.out.println(myDouble);
+        System.out.println(myInt);
 
 
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        int maxScore = 500;
+        int userScore =423;
+        float percentage = (float)userScore/maxScore * 100.0f;
+        System.out.println("User percentage is " + percentage);
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        int x = 134 + 45;
+        System.out.println(x);
+    }
+}
+public class Main {
+    public static void main (String []args){
+        int sum1 = 123 + 34;
+        int sum2 = 985+2;
+        int sum3 = 876+21;
+        System.out.println(sum1);
+        System.out.println(sum2);
+        System.out.println(sum3);
+    }
+}
