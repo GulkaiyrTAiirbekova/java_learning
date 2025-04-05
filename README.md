@@ -603,3 +603,58 @@ public class Main {
         System.out.println(sum3);
     }
 }
+public class Main {
+    public static void main (String [] args){
+        int x =16;
+        System.out.println(x);
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        int x= 16;
+        x+=4;
+        System.out.println(x);
+
+    }
+}
+public class Main {
+    public static void main (String []args){
+        int sum1 =120 + 23;
+        int sum2 = sum1 +124;
+        int sum3 = sum2 +sum2;
+
+        System.out.println(sum1);
+        System.out.println(sum2);
+        System.out.println(sum3);
+    }
+}
+public class Main {
+    public static void main (String [] args) {
+        int x=12;
+        int y=5;
+        System.out.println(x + y );
+        System.out.println (x - y);
+        System.out.println (x * y);
+        System.out.println (x/y);
+        System.out.println (x % y);
+        System.out.println ( ++x );
+        System.out.println( --x);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        int x = 13;
+        x += 5;
+        System.out.println(x);
+        System.out.println(x -3);
+        System.out.println(x * 3);
+        System.out.println(x / 3);
+        System.out.println(x % 3);
+        System.out.println (x & 3);
+        System.out.println (x |= 3);
+        System.out.println (x ^ 3);
+        System.out.println (x >> 3);
+        System.out.println (x << 3);
+           }
+}
+
