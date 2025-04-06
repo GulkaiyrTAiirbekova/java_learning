@@ -1,5 +1,5 @@
 # java_learning
-I am learnign Java , so next 360 days  you can see what I will be learning .
+I am learning Java , so next 360 days  you can see what I will be learning .
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -657,4 +657,10 @@ public class Main {
         System.out.println (x << 3);
            }
 }
-
+public class Main {
+    public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x == y);
+    }
+}
