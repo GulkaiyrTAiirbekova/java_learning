@@ -689,3 +689,9 @@ public class Main {
         System.out.println(greeting);
     }
 }
+public class Main{
+    public static void main (String [] args){
+        String txt = "ABCDEFHHIJKLMOPQRSTUWZ";
+        System.out.println("The length of the txt string is: " + txt.length()); //22
+    }
+}
