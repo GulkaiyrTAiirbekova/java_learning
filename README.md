@@ -675,3 +675,11 @@ public class Main {
         System.out.println(x <= y);
     }
 }
+public class Main {
+    public static void main (String [] args){
+        int x = 8;
+        System.out.println(x > 5 && x < 10);
+        System.out.println(x > 5 || x < 3);
+        System.out.println(!(x > 5 && x < 10));
+    }
+}
