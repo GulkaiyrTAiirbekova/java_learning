@@ -695,3 +695,10 @@ public class Main{
         System.out.println("The length of the txt string is: " + txt.length()); //22
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        String txt = "Hello World";
+        System.out.println(txt.toUpperCase());
+        System.out.println(txt.toLowerCase());
+    }
+}
