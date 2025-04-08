@@ -702,3 +702,23 @@ public class Main {
         System.out.println(txt.toLowerCase());
     }
 }
+public class Main {
+    public static void main (String [] args) {
+        String txt = " This text needs to bo be printed";
+        System.out.println(txt.toUpperCase());
+        System.out.println(txt.toLowerCase());
+
+    }
+}
+public class Main {
+    public static void main(String [] args){
+        String txt = "please locate where 'locate' occurs";
+        System.out.println(txt.indexOf("locate")); //7
+    }
+}
+public class Main {
+    public static void main (String [] args){
+        String txt = " I am learning finding character 'indexOf' ";
+        System.out.println(txt.indexOf("indexOf")); //34
+    }
+}
