@@ -743,3 +743,13 @@ public class Main {
         }
     }
 }
+public class Main{
+    public static void main(String[] args){
+        int x = 23;
+        int y = 45;
+        String z = "23";
+        String w = "45";
+        System.out.println(x+y);
+        System.out.println(z+w);
+    }
+}
