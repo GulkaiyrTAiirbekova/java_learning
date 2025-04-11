@@ -753,3 +753,11 @@ public class Main{
         System.out.println(z+w);
     }
 }
+public class Strings {
+    public static void main(String[] args) {
+        String txt = "We are from beautiful \"Kadamzhay\" city in Kyrgyzstan.";
+        String txt1 = " It\\'s alright.";
+        System.out.println(txt);
+        System.out.println(txt1);
+    }
+}
