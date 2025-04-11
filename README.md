@@ -761,3 +761,9 @@ public class Strings {
         System.out.println(txt1);
     }
 }
+public class Strings {
+    public static void main(String[] args) {
+        String txt = "The character \\ is called backslash.";
+        System.out.println(txt);
+    }
+}
