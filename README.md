@@ -774,3 +774,9 @@ public class Strings {
         System.out.println(txt);
     }
 }
+public class Strings {
+    public static void main(String[] args) {
+        String txt = "Return\rString!";
+        System.out.println(txt);
+    }
+}
