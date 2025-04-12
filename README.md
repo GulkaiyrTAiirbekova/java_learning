@@ -780,3 +780,10 @@ public class Strings {
         System.out.println(txt);
     }
 }
+
+public class Strings {
+    public static void main(String[] args) {
+        String txt = "Conn\bect String!";
+        System.out.println(txt);
+    }
+}
