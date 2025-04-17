@@ -911,3 +911,9 @@ public class Main {
         }
     }
 }
+public class Calculator {
+            public static void main(String [] args ){
+                int randomNum = (int)(Math.random() *100);
+                System.out.println("Random number: " + randomNum);
+}
+            }
