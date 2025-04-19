@@ -1,4 +1,4 @@
-# java_learning
+hh# java_learning
 I am learning Java , so next 360 days  you can see what I will be learning .
 public class Main {
     public static void main(String[] args) {
@@ -955,3 +955,27 @@ public class Calculator {
                 }
             }
         }
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //a->A
+        //b->B
+        //c->C
+        //invalid Character
+        String s = sc.next();
+        if (s.equals("a")) {
+            System.out.println("A");
+        } else {
+            if (s.equals("b")) {
+                System.out.println("B");
+            } else {
+                if (s.equals("c")) {
+                    System.out.println("C");
+                } else {
+                    System.out.println("Invalid character");
+                }
+            }
+        }
+    }
+}
