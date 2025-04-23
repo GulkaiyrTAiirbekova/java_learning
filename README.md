@@ -1012,3 +1012,12 @@ public class Main {
     }  
   }
 }
+public class Main {
+  static void myMethod() {
+    System.out.println("I started this method!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}
