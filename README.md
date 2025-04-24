@@ -1021,3 +1021,13 @@ public class Main {
     myMethod();
   }
 }
+public class Parameters {
+    static void myMethod (String fname){
+        System.out.println(fname  + " Adress");
+    }
+    public static void main (String [] args){
+        myMethod("Tom");
+        myMethod("John");
+        myMethod("Jane");
+    }
+}
