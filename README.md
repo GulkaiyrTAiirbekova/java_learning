@@ -1076,3 +1076,15 @@ public class Main {
     }    
   }
 }
+package org.examples;
+
+public class Main {
+    public static void main(String[] args) {
+        Payable firstPerson = new CreditCardPayment();
+        Payable secondPerson = new CashPayment();
+        firstPerson.pay (50);
+        secondPerson.pay (60);
+
+
+    }
+}
