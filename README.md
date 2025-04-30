@@ -1102,3 +1102,15 @@ public class Main {
     }
   } 
 }
+import java.util.HashMap;
+
+public class Main {
+  public static void main(String[] args) {
+    HashMap<String, String> capitalCities = new HashMap<String, String>();
+    capitalCities.put("Kyrgyzstan", "Bishkek");
+    capitalCities.put("Germany", "Berlin");
+    capitalCities.put("Uzbekistan", "Tashkent");
+    capitalCities.put("Kazakhstan", "Astana");
+    System.out.println(capitalCities); 
+  }
+}
