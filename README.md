@@ -1126,3 +1126,17 @@ public class Main {
     System.out.println(regions);
   } 
 }
+import java.util.LinkedList;
+
+public class Main {
+  public static void main(String[] args) {
+    LinkedList<String> regions = new LinkedList<String>();
+    regions.add("Bishkek");
+    regions.add("Osh");
+    regions.add("Chui");
+    
+    // Use addFirst() to add the item to the beginning
+    regions.addFirst("Batken");
+    System.out.println(regions);
+  }
+}
