@@ -1114,3 +1114,15 @@ public class Main {
     System.out.println(capitalCities); 
   }
 }
+import java.util.LinkedList;
+
+public class Main { 
+  public static void main(String[] args) { 
+    LinkedList<String> regions = new LinkedList<String>();
+    regions.add("Bishkek");
+    regions.add("Osh");
+    regions.add("Batken");
+    regions.add("Chui");
+    System.out.println(regions);
+  } 
+}
