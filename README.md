@@ -1140,3 +1140,21 @@ public class Main {
     System.out.println(regions);
   }
 }
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Main { 
+  public static void main(String[] args) { 
+    ArrayList<String> books = new ArrayList<String>();
+    books.add("The Innovator's Dilemma");
+    books.add("The Soul of a New Machine");
+    books.add("The New New Thing: A Silicon Valley Story");
+    books.add("Clean Code: A Handbook of Agile Software Craftsmanship");
+    
+    Collections.sort(books);
+
+    for (String i : books) {
+      System.out.println(i);
+    }
+  } 
+}
