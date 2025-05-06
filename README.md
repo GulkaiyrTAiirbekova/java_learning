@@ -1,4 +1,4 @@
-hh# java_learning
+my hh# java_learning
 I am learning Java , so next 360 days  you can see what I will be learning .
 public class Main {
     public static void main(String[] args) {
@@ -1186,4 +1186,13 @@ public class NameListExample {
         }
         System.out.println("Total names:" + names.size());
     }
+}
+public class Main {
+  public static void main(String[] args) {
+    int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);
+    System.out.println(myDouble);
+  }
 }
