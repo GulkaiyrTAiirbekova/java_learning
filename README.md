@@ -1250,3 +1250,13 @@ public class Main {
     System.out.println("The lowest age in the array is: " + lowestAge);
   }
 }
+public class Main {
+  public static void main(String[] args) {
+    for (int i = 0; i < 10; i++) {
+      if (i == 4) {
+        break;
+      }
+      System.out.println(i);
+    }  
+  }
+}
