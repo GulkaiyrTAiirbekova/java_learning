@@ -1280,3 +1280,15 @@ public class Main {
     System.out.println(myNumbers[10]);
   }
 }
+enum Level {
+  LOW,
+  MEDIUM,
+  HIGH
+}
+
+public class Main { 
+  public static void main(String[] args) { 
+    Level myVar = Level.MEDIUM; 
+    System.out.println(myVar); 
+  } 
+}
