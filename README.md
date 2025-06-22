@@ -1360,3 +1360,12 @@ public class Main {
     System.out.println("Total cost = " + totalCost + currency);
   }
 }
+public class Main {
+  public static void main(String[] args) {
+    int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);
+    System.out.println(myDouble);
+  }
+}
